@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #345db6;
+    color: white;
+}
+
+/* NAVBAR */
+nav{
+    padding: 3rem 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .title h2{
+    font-size: 2.5rem;
+    border-bottom: 4px solid #b63434;
+    border-radius: .4rem;
+}
+
+nav .navlink a{
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-size: 1.7rem;
+    color: white;
+    border-radius: .5rem;
+}
+/* NAVBAR */
+
+/* HOMEPAGE SECTION */
+.homepage-section{
+    padding: 3rem 7% 30rem;
+    
+}
+
+.homepage-section h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.homepage-section p{
+    font-size: 1.5rem;
+}
+/* HOMEPAGE SECTION */
+
+/* NEW BLOG SECTION */
+.newblog-section{
+    padding: 3rem 7% 15rem;
+    width: 100%;
+}
+
+.newblog-section h1{
+    text-align: center;
+}
+
+.newblog-section .form-input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.newblog-section .form-input form input{
+    padding: 1rem;
+    height: 3rem;
+    border-radius: .2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.newblog-section .form-input form textarea{
+    resize: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: .2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newblog-section .form-input form textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newblog-section .form-input form button{
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    color: #345db6;
+}
+/* NEW BLOG SECTION */
+
+/* BLOGS SECTION */
+.blogs-section{
+    padding: 3rem 7% 15rem;
+}
+
+.blogs-section h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.blogs-section h3{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.blogs-section h3 a{
+    color: #fff;
+}
+
+.blogs-section p{
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+/* BLOGS SECTION */
+
+/* BLOG DETAILS SECTION */
+.details-content{
+    padding: 3rem 7% 30rem;
+}
+
+.details-content .action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.details-content .action a{
+    display: inline-block;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.details-content .action .delete{
+    display: flex;
+    justify-content: end;
+    background-color: red;
+    padding: .5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.details-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.details-content .content p{
+    font-size: 1.5rem;
+}
+/* BLOG DETAILS SECTION */
+
+/* ABOUT SECTION */
+.about-section{
+    padding: 3rem 7% 30rem;
+}
+
+.about-section h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p{
+    font-size: 1.5rem;
+}
+/* ABOUT SECTION */
+
+/* 404 SECTION */
+.notfound-section{
+    padding: 3rem 7%;
+}
+/* 404 SECTION */
+
+/* FOOTER SECTION */
+footer{
+    padding: 3rem 7%;
+    text-align: center;
+}
+/* FOOTER SECTION */

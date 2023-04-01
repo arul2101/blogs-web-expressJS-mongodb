@@ -1,0 +1,12 @@
+<div class="blogs-section">
+    <h1>All Blog</h1>
+
+    <% if (blogs.length > 0) { %>
+        <% blogs.forEach(({ _id, title, snippet }) => { %>
+            <h3><a href="/blogs/<%= _id %>"><%= title %></a></h3>
+            <p><%= snippet %></p>
+        <% }) %>
+    <% } else { %>
+        <p>No Blogs, create a blogs now!</p>
+    <% } %>
+</div>
